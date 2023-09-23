@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-color: #ffffffe5;
+
+}
+nav {
+    width: 100%;
+    float: left;
+    background-color: #222222;
+    margin-bottom: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navlinks:hover {
+    background-color: #407387;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+.navlinks {
+    color: #fff; 
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+
+a:visited {
+    color: #fff;
+}
+
+#my-info {
+    text-align: center;
+}
+
+.info-name {
+    margin-top: 3%;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.about-me h1 {
+    margin-bottom: 2%;
+}
+
+.about-me p {
+   padding-top: 2%; 
+}
