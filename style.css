@@ -96,11 +96,11 @@ p {
     box-sizing: border-box;
 }
 
-.my-contact-form {
+#form {
     padding: 20%;
 }
 
-.my-contact-form h1 {
+#form h1 {
     padding-bottom: 10%;
 }
 
